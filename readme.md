@@ -3,6 +3,11 @@ I used the [Advent Of Code](https://adventofcode.com/) tasks for learning differ
 
 The tasks from 2021 have been used for learning [TypeScript](https://www.typescriptlang.org/).
 
+Requirements:
+- node.js
+- typescript `npm install -g typescript`
+- install node modules `npm install`
+
 To run:
-1. compile: `tsc day1/main`
-2. run:     `node day1/main.js`
+1. `tsc`
+2. `node day01/main`
