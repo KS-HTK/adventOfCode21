@@ -13,7 +13,7 @@ function readFile(path: string): string {
     return fs.readFileSync(path, 'utf8');
 }
 
-//part 1 functions return the number of times the number appears in the array
+//part 1
 function part1(lines: Array<Array<string>>): number {
     let p_vert: number = 0;
     let p_hor: number = 0;
@@ -38,7 +38,7 @@ function part1(lines: Array<Array<string>>): number {
     return p_hor*p_vert;
 }
 
-//part 2 count lines in array
+//part 2
 function part2(lines: Array<Array<string>>): number {
     let p_vert: number = 0;
     let p_hor: number = 0;
