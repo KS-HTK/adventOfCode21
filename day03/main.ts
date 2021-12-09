@@ -2,7 +2,7 @@ import * as fs from "fs";
 
 var count: number;
 var gamma: Array<number>;
-//AdventOfCode Day 2
+//AdventOfCode Day 3
 //main
 function main() {
   let lines: Array<string> = readFile("day03/input")
