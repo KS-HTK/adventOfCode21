@@ -1,6 +1,6 @@
 import * as fs from "fs";
 
-//AdventOfCode Day 7
+//AdventOfCode Day 8
 //main
 function main() {
   let lines: Array<string> = readFile("day08/input")
