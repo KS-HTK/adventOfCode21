@@ -1,5 +1,4 @@
 import * as fs from "fs";
-import { setPriority } from "os";
 
 //AdventOfCode Day 11
 //main
