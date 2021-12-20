@@ -1,0 +1,8 @@
+{
+  "requires": true,
+  "lockfileVersion": 1,
+  "dependencies": {
+    "@types/node": "16.11.11",
+    "immutable": "4.0.0"
+  }
+}
