@@ -1,6 +1,6 @@
 import * as fs from "fs";
 
-//AdventOfCode Day 19
+//AdventOfCode Day 20
 
 let algo: string;
 let img: Array<string>;
@@ -53,7 +53,6 @@ function useAlgo(): void {
   boundry = out[0][0];
 }
 
-//part 1
 function countLit(): number {
   let count = 0;
   img.forEach((v) => {
@@ -64,7 +63,6 @@ function countLit(): number {
   return count;
 }
 
-//part 2
 function applyAlgo(count: number): void {
   useAlgo();
   if (count > 1) applyAlgo(count - 1);
